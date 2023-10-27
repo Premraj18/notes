@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Iconscout Link For Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+
+    <!-- Header -->
+
+    <header>
+      <div class="navbar">
+        <div class="logo"><a href="#">Notes App</a></div>
+        <ul class="links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#notes">Create Notes</a></li>
+        </ul>
+        <!-- <a href="#" class="action-btn">Get Started</a> -->
+        <div class="toggle-btn"><i class="fa-solid fa-bars"></i></div>
+      </div>
+
+      <div class="dropdown-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#notes">Create Notes</a></li>
+        <!-- <li><a href="#" class="action-btn">Get Started</a></li> -->
+      </div>
+    </header>
+
+    <!-- Home -->
+
+    <div id="home">
+        <div class="home-container">
+            <h2 class="head">The simplest way to keep notes</h2>
+            <p>Notes stay updated across all your devices, automatically and in real time. There’s no “sync” button: It just works.</p>
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div id="about">
+        <h2>About</h2>
+        <h4>Here is the Key Features of This Notes App:-</h4>
+        <ul class="list">
+            <li>This app is very simple and user friendly and anyone easily add or remove or edit their notes here.</li>
+            <li>Users can create new notes quickly and easily, often with the ability to title, date, and organize them.</li>
+            <li>This app support the Editing the notes after add it on notes list.</li>
+            <li>Protecting user data with encryption and security features is crucial, especially if users are storing sensitive information in their notes.</li>
+            <li>Pre Design template help to well organise the notes.</li>
+        </ul>
+    </div>
+
+    <!-- Create Notes -->
+
+    <div id="notes">
+        <h3>Create Notes Here</h3>
+      <div class="popup-box">
+        <div class="popup">
+          <div class="content">
+            <header>
+              <p></p>
+              <i class="uil uil-times"></i>
+            </header>
+            <form action="#">
+              <div class="row title">
+                <label>Title</label>
+                <input type="text" spellcheck="false" />
+              </div>
+              <div class="row description">
+                <label>Description</label>
+                <textarea spellcheck="false"></textarea>
+              </div>
+              <button></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <li class="add-box">
+          <div class="icon"><i class="uil uil-plus"></i></div>
+          <p>Add new note</p>
+        </li>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
